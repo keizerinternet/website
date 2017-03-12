@@ -16,7 +16,8 @@ deploy:
   steps:
     - install-packages:
         packages: git ssh-client
-    - lukevevier/gh-pages:
+    - lukevivier/gh-pages@0.2.1:
+    # - lukevevier/gh-pages:
         token: $GIT_TOKEN
         domain: http://keizerinternet.github.io/website
         basedir: public
