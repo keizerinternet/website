@@ -19,4 +19,5 @@ deploy:
     - uetchy/gh-pages:
         token: $GIT_TOKEN
         domain: http://keizerinternet.com
-        basedir: public
+        path: public
+        repo: keizerinternet/website
