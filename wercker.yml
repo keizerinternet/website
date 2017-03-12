@@ -6,14 +6,14 @@ build:
     - script:
         name: submodule update
         code: $(git submodule update --init --recursive)
-    - arjen/hugo-build
+    - arjen/hugo-build:
         theme: black-and-white
         flags: --buildDrafts=true
 deploy:
   steps:
     - install-packages:
       packages: git ssh-client
-    - lukevevier/gh-pages
+    - lukevevier/gh-pages:
       token: $GIT_TOKEN
       domain: http://keizerinternet.github.io/website
       basedir: public
