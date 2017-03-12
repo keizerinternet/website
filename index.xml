@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Keizer Internet</title>
+    <link>http://keizerinternet.com/index.xml</link>
+    <description>Recent content on Keizer Internet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Mar 2017 16:01:01 -0800</lastBuildDate>
+    <atom:link href="http://keizerinternet.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about</title>
+      <link>http://keizerinternet.com/about/</link>
+      <pubDate>Sat, 11 Mar 2017 16:01:01 -0800</pubDate>
+      
+      <guid>http://keizerinternet.com/about/</guid>
+      <description>&lt;p&gt;KeizerInternet.com is the official website for updates on the City of Keizer&amp;rsquo;s Muinicpal Internet project.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
