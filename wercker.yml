@@ -9,6 +9,7 @@ build:
         # $(git submodule update --init --recursive)
         $(git clone https://github.com/davidhampgonsalves/hugo-black-and-light-theme.git ./themes/black-and-light/)
     - arjen/hugo-build:
+        version: "HEAD"
         theme: black-and-light
         flags: --buildDrafts=true
 deploy:
