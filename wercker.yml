@@ -16,7 +16,7 @@ deploy:
   steps:
     - install-packages:
         packages: git ssh-client
-    - gh-pages:
+    - uetchy/gh-pages:
         token: $GIT_TOKEN
         domain: http://keizerinternet.github.io/website
         basedir: public
