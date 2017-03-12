@@ -5,7 +5,8 @@ build:
         packages: git
     - script:
         name: submodule update
-        git submodule update --init --recursive
+        code: |
+          git submodule update --init --recursive
     - arjen/hugo-build
         theme: black-and-white
         flags: --buildDrafts=true
