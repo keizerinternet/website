@@ -25,6 +25,6 @@ deploy:
       gh_oauth: $GIT_TOKEN
       basedir: public
       clean_removed_files: true
-      branch: gh_pages
+      branch: gh-pages
       repo: keizerinternet/website
       gh_pages_domain: keizerinternet.com
