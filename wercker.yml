@@ -1,4 +1,4 @@
-box: golang
+box: debian
 build:
   steps:
     - install-packages:
@@ -6,7 +6,7 @@ build:
     - script:
         name: submodule update
         code: |
-          git submodule update --init --recursive
+          $(git submodule update --init --recursive)
     - arjen/hugo-build
         theme: black-and-white
         flags: --buildDrafts=true
