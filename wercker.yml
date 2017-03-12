@@ -3,9 +3,9 @@ build:
   steps:
     - install-packages:
         packages: git
-    - script:
-        name: submodule update
-        code: $(git submodule update --init --recursive)
+    # - script:
+    #     name: submodule update
+    #     code: $(git submodule update --init --recursive)
     - arjen/hugo-build:
         theme: black-and-white
         flags: --buildDrafts=true
