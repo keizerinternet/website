@@ -6,8 +6,8 @@ build:
     - script:
       name: Install Theme
       code: | 
-        $(git submodule update --init --recursive)
-        # $(git clone https://github.com/davidhampgonsalves/hugo-black-and-light-theme.git ./themes/black-and-light/)
+        # $(git submodule update --init --recursive)
+        $(git clone https://github.com/davidhampgonsalves/hugo-black-and-light-theme.git ./themes/black-and-light/)
     - arjen/hugo-build:
         theme: black-and-light
         flags: --buildDrafts=true
