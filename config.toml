@@ -1,4 +1,19 @@
 languageCode = "en-us"
-title = "Keizer Internet"
-baseURL = "http://keizerinternet.com"
-theme = "black-and-light"
+title        = "Keizer Internet"
+baseURL      = "http://keizerinternet.com"
+theme        = "black-and-light"
+canonifyurls = true
+
+[[menu.main]]
+  name = "About"
+  url  = "/about"
+[[menu.main]]
+  name = "Posts"
+  url  = "/posts"
+[[menu.main]]
+  name = "Contact"
+  url  = "/contact"
+
+[params]
+sitename = "Keizer Municiple Internet Project"
+
