@@ -1,13 +1,19 @@
-box: debian
+box: golang
 build:
   steps:
     - install-packages:
         packages: git
     - script:
-        name: download theme
-        code: |
-            $(git clone https://github.com/spf13/herring-cove ./themes/herring-cove)
-    - arjen/hugo-build:
-        version: "1.15.1"
+        name: submodule update
+        git submodule update --init --recursive
+    - arjen/hugo-build
         theme: black-and-white
         flags: --buildDrafts=true
+deploy:
+  steps:
+    - install-packages:
+      packages: git ssh-client
+    - lukevevier/gh-pages
+      token: $GIT_TOKEN
+      domain: http://keizerinternet.github.io/website
+      basedir: public
