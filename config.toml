@@ -1,3 +1,4 @@
 languageCode = "en-us"
 title = "Keizer Internet"
 baseURL = "http://keizerinternet.com"
+theme = "black-and-light"
