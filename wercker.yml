@@ -3,9 +3,10 @@ build:
   steps:
     - install-packages:
         packages: git
-    # - script:
-    #     name: submodule update
-    #     code: $(git submodule update --init --recursive)
+    - script:
+      name: Install Theme
+      code: | 
+        $(git clone https://github.com/davidhampgonsalves/hugo-black-and-light-theme.git ./themes/black-and-light/)
     - arjen/hugo-build:
         theme: black-and-white
         flags: --buildDrafts=true
