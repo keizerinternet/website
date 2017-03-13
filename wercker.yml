@@ -6,7 +6,6 @@ build:
     - script:
       name: Install Theme
       code: | 
-        # $(git submodule update --init --recursive)
         $(git clone https://github.com/davidhampgonsalves/hugo-black-and-light-theme.git ./themes/black-and-light/)
     - arjen/hugo-build:
         version: "HEAD"
@@ -16,15 +15,12 @@ deploy:
   steps:
     - install-packages:
         packages: git ssh-client
-    # - uetchy/gh-pages:
-    #     token: $GIT_TOKEN
-    #     domain: http://keizerinternet.com
-    #     path: public
-    #     repo: keizerinternet/website
+    - fly1tkg/deploy-master-only:
+        enable: true
     - leipert/git-push:
-      gh_oauth: $GIT_TOKEN
-      basedir: public
-      clean_removed_files: true
-      branch: gh-pages
-      repo: keizerinternet/website
-      gh_pages_domain: keizerinternet.com
+        gh_oauth: $GIT_TOKEN
+        basedir: public
+        clean_removed_files: true
+        branch: gh-pages
+        repo: keizerinternet/website
+        gh_pages_domain: keizerinternet.com
