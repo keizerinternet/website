@@ -8,6 +8,9 @@ canonifyurls = true
   name = "About"
   url  = "/about"
 [[menu.main]]
+  name = "Mission"
+  url  = "/mission"
+[[menu.main]]
   name = "Posts"
   url  = "/posts"
 [[menu.main]]
