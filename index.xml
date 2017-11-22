@@ -12,23 +12,12 @@
     
     
     <item>
-      <title>Facebook</title>
+      <title>facebook</title>
       <link>http://keizerinternet.com/facebook/</link>
       <pubDate>Tue, 21 Nov 2017 20:53:52 -0800</pubDate>
       
       <guid>http://keizerinternet.com/facebook/</guid>
-      <description>Connect with Us Continue the discussion with us on Facebook</description>
-    </item>
-    
-    <item>
-      <title>contact</title>
-      <link>http://keizerinternet.com/contact/</link>
-      <pubDate>Tue, 14 Mar 2017 09:07:56 -0700</pubDate>
-      
-      <guid>http://keizerinternet.com/contact/</guid>
-      <description> Contact Us  --  Name  Email  Response Requested  Message 
-  --
- function submit() { console.log(&#34;submitform&#34;); var nameElement = document.getElementsByName(&#34;name&#34;)[0]; var emailElement = document.getElementsByName(&#34;email&#34;)[0]; var requestResponseElement = document.getElementsByName(&#34;request-response&#34;)[0]; var messageElement = document.getElementById(&#34;message&#34;); var name = nameElement.value var email = emailElement.value var requestResponse = requestResponseElement.checked; var message = messageElement.value; if (typeof email === &#34;undefined&#34; || email.length </description>
+      <description>Connect with Us Continue the discussion with us on facebook</description>
     </item>
     
     <item>
