@@ -61,7 +61,7 @@ console.log("submitform");
 
   // POST it
   var xhr = new XMLHttpRequest();
-  xhr.open("POST", '----', true);
+  xhr.open("POST", "https://api.github.com/repos/keizerinternet/website/issues", true);
 
   // Set our headers
   xhr.setRequestHeader("Content-Type", "application/json");
@@ -85,10 +85,11 @@ console.log("submitform");
     }
   }
   var json = {
-    "name": name,
-    "email": email,
-    "response_requested": requestResponse,
-    "message": message
+    "title": "New Message",
+    "body": `${name} - ${email}
+    ${message}
+
+    - [${requestResponse?'X':' '}] **Response Requested**`,
   };
   console.log("JSON: " + json);
   xhr.send(JSON.stringify(json));

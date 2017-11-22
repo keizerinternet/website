@@ -13,6 +13,9 @@ canonifyurls = true
 [[menu.main]]
   name = "Contact"
   url  = "/contact"
+[[main.menu]]
+  name = "Facebook"
+  url  = "/facebook"
 
 [params]
 sitename = "Keizer Municiple Internet Project"
