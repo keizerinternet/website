@@ -10,7 +10,7 @@ canonifyurls = true
 [[menu.main]]
   name = "Mission"
   url  = "/mission"
-[[main.menu]]
+[[menu.main]]
   name = "Facebook"
   url  = "/facebook"
 
