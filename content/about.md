@@ -5,7 +5,7 @@ draft = false
 
 +++
 
-KeizerInternet.com is the official website for updates on the City of Keizer's Muinicpal Internet project.
+KeizerInternet.com is the official website for updates on the Keizer Internet project.
 
 The Keizer Internet Project advocates for a free and open internet for Keizer citizens. We believe the best way to ensure a free and open internet is by creating a publicly funded, city-wide network utility service.
 
