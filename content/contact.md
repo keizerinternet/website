@@ -6,7 +6,7 @@ date: 2017-11-21T20:53:52-08:00
 
 # Contact Us
 
-Send emails about the Keizer Internet Project to [keizerinternet@pm.com](mailto:keizerinternet@pm.me)
+Send emails about the Keizer Internet Project to [keizerinternet@pm.me](mailto:keizerinternet@pm.me)
 
 # Office Hours
 
