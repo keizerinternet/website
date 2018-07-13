@@ -11,8 +11,8 @@ canonifyurls = true
   name = "Mission"
   url  = "/mission"
 [[menu.main]]
-  name = "Facebook"
-  url  = "/facebook"
+  name = "Contact"
+  url  = "/contact"
 
 [params]
 sitename = "Keizer Internet Project"
